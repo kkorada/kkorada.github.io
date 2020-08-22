@@ -13,7 +13,6 @@ body {
 }
 .peach {
 	background-color: #FFDAB9;
-	
 }
 .peach-after {
 	-webkit-animation:peach_alive linear 8s infinite;
@@ -1307,4 +1306,19 @@ audio {
     	.container {
     		-webkit-transform: scale(0.9);
     	}
-    }*/
+	}*/
+	
+
+
+	@media only screen and (max-width: 375px) {
+		.balloons {
+			width: 50px;
+			height: 90px;
+			background-repeat: no-repeat no-repeat;
+			background-size: 50px 90px;
+		}
+		
+		.balloons h2 {
+			font-size: 25px;
+		}
+	}
